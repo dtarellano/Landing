@@ -1,38 +1,20 @@
 <template>
   <div>
-    <app-nav/>
-    <section class="container">
-      <div>
-        <app-logo/>
-        <h1 class="title">
-          landing
-        </h1>
-        <h2 class="subtitle">
-          Building a Lanidn from Scratch
-        </h2>
-        <div class="links">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            class="button--green">Documentation</a>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            class="button--grey">GitHub</a>
-        </div>
-      </div>
-    </section>
+    <app-nav />
+    <app-hero />
   </div>
 </template>
 
 <script>
 import AppLogo from '~/components/AppLogo.vue';
 import Nav from '~/components/Nav.vue';
+import Hero from '~/components/Hero.vue';
 
 export default {
   components: {
     AppLogo,
-    'app-nav': Nav
+    AppNav: Nav,
+    AppHero: Hero
   }
 };
 </script>
