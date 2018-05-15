@@ -30,8 +30,13 @@ export default {};
 </script>
 
 <style lang="css">
+  .navbar {
+    width: 90%;
+    margin:auto;
+  }
   .navbar-center {
     display:flex;
+    width: 10%;
     margin: auto;
   }
 </style>
