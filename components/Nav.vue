@@ -1,15 +1,26 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    <div class="navbar-center">
+      <a class="navbar-item">
+        Home
       </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a class="navbar-item">
+        About
       </a>
+      <a class="navbar-item">
+        Pricing
+      </a>
+      <a class="navbar-item">
+        Contact
+      </a>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <button class="button">Login</button>
+      </div>
+      <div class="navbar-item">
+        <button class="button is-primary">Try Free</button>
+      </div>
     </div>
   </nav>
 </template>
@@ -19,4 +30,8 @@ export default {};
 </script>
 
 <style lang="css">
+  .navbar-center {
+    display:flex;
+    margin: auto;
+  }
 </style>
