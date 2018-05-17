@@ -29,10 +29,11 @@
 export default {};
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
   .navbar {
     width: 90%;
     margin:auto;
+    background-color: #f6fbfd;
   }
   .navbar-center {
     display:flex;
